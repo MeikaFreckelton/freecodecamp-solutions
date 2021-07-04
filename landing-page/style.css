@@ -12,9 +12,10 @@ body{
 #header{
     display: flex;
     justify-content: space-between;
-    width: 98%;
-    /* margin: 0 auto; */
-    padding: 2% 1%;
+    padding: 1% 1%;
+    position: fixed;
+    top: 0;
+    background-color: white;
 }
 
 #header-img{
@@ -32,6 +33,7 @@ body{
 .nav-link{
     text-decoration: none;
     color: orange;
+    padding-top: 2%;
 
 }
 
@@ -41,9 +43,13 @@ body{
     color: black;
 }
 
+#main{
+    padding-top: 8%;
+}
+
 #title{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 600;
     margin-top: 3%;
 }
@@ -77,6 +83,7 @@ body{
 .prod-content{
     display: grid;
     grid-template-columns: 25% 70%;
+    margin-bottom: 5%;
 }
 
 .icon{
@@ -90,5 +97,21 @@ body{
 .fas{
     font-size: 4rem;
     margin: 0 auto;
+}
+
+.desc-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+
+#product-info{
+    width: 70vw;
+    margin: 0 auto;
+}
+
+#video-container{
+    display: flex;
+    justify-content: center;
 }
 
