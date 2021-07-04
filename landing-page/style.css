@@ -161,3 +161,67 @@ body{
     font-family: poppins;
 }
 
+
+@media only screen and (max-width: 768px) {
+
+    #header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header-img{
+        width: 90%;
+        object-fit: contain;
+        padding-top: 5%;
+    }
+
+    #nav-bar{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #main{
+        margin-top: 30%;
+    }
+
+    #title{
+        font-size: 1.25rem;
+    }
+
+    #form{
+        width: 80vw;
+    }
+
+    #product-info{
+        width: 80vw;
+    }
+    .fas{
+        font-size: 3rem;
+    }
+
+    .desc-title{
+        font-size: 1rem;
+    }
+
+    .description{
+        font-size: 0.75rem;
+    }
+
+    .prod-content{
+        margin-bottom: 10%;
+    }
+
+    iframe{
+        width: 80%;
+        height: 80%;
+    }
+
+    #pricing{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+}
