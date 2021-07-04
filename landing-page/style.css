@@ -1,0 +1,42 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0 auto;
+}
+
+#header-img{
+    width: 30%;
+    max-width: 100%;
+
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.prod-content{
+    display: grid;
+    grid-template-columns: 25% 70%;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.fas{
+    font-size: 4rem;
+    margin: 0 auto;
+}
+
